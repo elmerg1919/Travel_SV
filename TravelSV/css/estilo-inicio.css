@@ -1,0 +1,237 @@
+@import url(http://fonts.googleapis.com/css?family=Muli);
+
+body{
+    font-family: 'Muli', sans-serif;
+   
+}
+h1{
+    text-align: center;
+}
+
+/*centramos la imagen
+#centro{
+    
+   display: block;
+    margin: auto;
+    height: 350px;
+    width: 350px;
+}
+#centro_ejem{
+   display: block;
+    margin: auto;
+    height: 350px;
+    width: 650px;
+}
+*/
+.text_center{
+text-align: center;    
+}
+
+.img_izquierda{
+   float: right;
+    height: 170px;
+    width: 160px;   
+}
+
+.carousel-inner img{
+  width: 100%;
+    height: 385px;
+}
+#centro{
+   display: block;
+    margin: auto;
+    height: 350px;
+    width: 350px;
+}
+.container .card{
+    border: 1px;
+    display: inline-block;
+    width: auto;
+    margin: 25px;
+    padding: 20px, 20px;
+    text-align: justify;
+}
+
+/* reglas para acomodar el pie de pagina  */
+.footer{
+background-color: #212529;
+padding: .5rem .8rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+padding: 5px;
+}
+footer p{
+    text-align: center;
+    color: white;
+    padding: 25px;
+    font-size: 15px;
+}
+.footer img{
+    width: 65px;
+    padding: 10px;
+}
+/*Formulario*/
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 550px;
+  background: rgba(0,0,0,0.8);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.wrapper .title h1{
+  color: #c5ecfd;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.contact-form{
+  display: flex;
+}
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.msg{
+  width: 48%;
+}
+
+.input-fields .input,
+.msg textarea{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #c5ecfd;
+  padding: 10px;
+  color: #c5ecfd;
+  width: 100%;
+}
+
+.msg textarea{
+  height: 212px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #c5ecfd;
+}
+
+#boton{
+   background: #39b7dd;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+/*desplazamiento y tiempo*/
+#caja2 div {
+    display: inline-block;
+    padding: 1em;
+    margin: 1em;
+    background-color: #666;
+    color: #fff;
+    transition: transform 2s;
+}
+
+/*herencia*/
+#caja2 div:nth-child(n+0):hover {
+    background-color: #ff8000;
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-tranform: rotate(5deg);
+    cursor: pointer;
+}
+
+img.pascua{
+ width: 300px;
+    height: 300px;
+}
+
+/* Reglas para la imagen Udesign */
+#udesign{
+    width: 300px;
+    margin-left: 42.6%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+/* Reglas para los h2 del container */
+.container .h2creadores{
+    padding-top: 0%;
+}
+
+
+
+/* Reglas para el texto del container */
+.container .textocreadores{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#tablacreadores{
+    
+    padding: 15%;
+    margin: 10%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.fotoscreadores1{
+    width: 280px;
+    height: 325px;
+    padding: 10% 15%;
+}
+.fotoscreadores2{
+    width: 280px;
+    height: 290px;
+    padding: 4% 10%;
+}
+
+.fotoscreadores3{
+    width: 280px;
+    height: 250px;
+    padding: 4% 8%;
+}
+
+.fotoscreadores4{
+    width: 280px;
+    height: 280px;
+    padding: 6% 16%;
+}
+
+.cargos{
+    text-align: center;
+}
+
+/* Reglas para centrar y dar margen a la imagen de la empresa de turismo */
+#travelers{
+    width: 300px;
+    margin-left: 43%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+/* Reglas para centrar el texto */
+.container .textotravelsv{
+    text-align: center;
+}
+/* Reglas para separar por relleno los titulos h2 */
+.container .h2travelsv{
+    padding-top: 3%;
+}
+
+
